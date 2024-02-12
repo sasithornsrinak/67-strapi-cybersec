@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    image: sasithorn/strapi
+    container_name: 67-ced-strapi
+    environment:
+      - DATABASE_CLIENT=postgres
+      - DATABASE_HOST=192.168.211.2
+      - DATABASE_PORT=54321
+      - DATABASE_NAME=sasithorn
+      - DATABASE_USERNAME=sasithorn
+      - DATABASE_PASSWORD=Naew.18s
